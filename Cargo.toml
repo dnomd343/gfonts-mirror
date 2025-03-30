@@ -4,8 +4,6 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-axum = "0.8.1"
-bytes = "1.10.1"
-http = "1.2.0"
-reqwest = "0.12.12"
-tokio = { version = "1.44.0", features = ["full"] }
+actix-web = "4.10"
+bytes = "1.10"
+reqwest = "0.12"
